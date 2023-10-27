@@ -89,7 +89,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [Tailwindcss][Tailwindcss.com]][Tailwind-url]
+* [![Tailwind-url](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)[]]
 * 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
