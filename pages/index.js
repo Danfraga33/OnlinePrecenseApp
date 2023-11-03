@@ -1,33 +1,15 @@
-import { useState } from 'react';
-export default function Home() {
-	const [topic, setTopic] = useState('');
+import Features from './LandingPage/Features';
+import Header from './LandingPage/Header';
+import Hero from './LandingPage/Hero';
+import React from 'react';
 
-	async function handleFetch() {
-		const response = await fetch('/api/hello', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify(topic),
-		});
-		if (response.ok) {
-			const json = await response.json();
-			console.log(json);
-		} else {
-			console.error('Error:', response.statusText);
-		}
-	}
-
+function Index() {
 	return (
 		<div>
-			<label htmlFor="topic">Topic</label>
-			<input
-				id="topic"
-				placeholder="topic"
-				value={topic}
-				onChange={(e) => setTopic(e.target.value)}
-			></input>
-			<button onClick={handleFetch}>Generate</button>
+			<Header />  
+			<Hero />
+			<Features />
 		</div>
 	);
 }
+export default Index;
