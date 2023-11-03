@@ -1,24 +1,29 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "latest",
-    "openai": "^4.13.0",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest"
-  }
+	"name": "my-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.4.2",
+		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"@heroicons/react": "^2.0.18",
+		"next": "latest",
+		"openai": "^4.13.0",
+		"react": "latest",
+		"react-dom": "latest",
+		"react-icons": "^4.11.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "latest",
+		"eslint": "^8.52.0",
+		"eslint-config-next": "latest",
+		"postcss": "latest",
+		"tailwindcss": "^3.3.5"
+	}
 }
